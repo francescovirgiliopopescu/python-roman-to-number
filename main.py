@@ -6,7 +6,7 @@ class Solution:
         if table[c] < table[pre]:
           sm, pre = sm - table[c], c  
         else:
-          sm, pre = sm + table[c], c
+          sm, pre = sm + table[c], c 
       return sm
   
 sol = Solution()
